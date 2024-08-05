@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_OUT_TU_PPF_FUNCTIONS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Handling of Sending and receiveng manifest</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SV_APPL_LOG_HANDLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_MESSAGE</CMPNAME>
+     <SCONAME>IV_PROBLEMCLASS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Message Problem Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_MESSAGE</CMPNAME>
+     <SCONAME>RV_LOG_IS_FULL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=True, Space=False)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOAD_ENDED</CMPNAME>
+     <SCONAME>IV_APPLICATION_LOG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOAD_ENDED</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOAD_ENDED</CMPNAME>
+     <SCONAME>IV_TU_NUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Internal Number of Transportation Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOAD_ENDED</CMPNAME>
+     <SCONAME>IV_TU_SR_ACT_NUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Shipping and Receiving Activity Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>POST_GI_FOR_HUS</CMPNAME>
+     <SCONAME>IT_GM_HU</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Data for Goods Movements</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>POST_GI_FOR_HUS</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>POST_GI_FOR_HUS_WITH_SP</CMPNAME>
+     <SCONAME>IT_GM_HU</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Data for Goods Movements</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>POST_GI_FOR_HUS_WITH_SP</CMPNAME>
+     <SCONAME>IV_DOCID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Document ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>POST_GI_FOR_HUS_WITH_SP</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>POST_GI_WITH_CLASS</CMPNAME>
+     <SCONAME>IT_DLV</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Document Identification with ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>POST_GI_WITH_CLASS</CMPNAME>
+     <SCONAME>IT_GM_HU</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Data for Goods Movements</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>POST_GI_WITH_FM</CMPNAME>
+     <SCONAME>IT_GM_ITM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Stocks to Be Posted</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_MANIFEST</CMPNAME>
+     <SCONAME>IV_APPLICATION_LOG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_MANIFEST</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_MANIFEST</CMPNAME>
+     <SCONAME>IV_TU_NUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Internal Number of Transportation Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_MANIFEST</CMPNAME>
+     <SCONAME>IV_TU_SR_ACT_NUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Shipping and Receiving Activity Number</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

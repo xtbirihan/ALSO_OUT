@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMC_OUT</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Outbound Process</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>It is allowed to enter only CARRIER or SHIP_TO or SOLD_TO per line.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>It is not allowed to have inclusion and exclusion for the same key.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Start custom packing: Real Algorithm.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Process is cancelled. Empty list of tasks is supplied.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Task &amp;1 doesn&apos;t have a valid reference document ID.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Packing will be executed for document &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Total quantity for material &amp;1: &amp;2[&amp;3].</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Material &amp;1 doesn&apos;t have master carton maintained as AUoM.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Material &amp;1 will be packed by cuboid algorithm.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Maintained capacity for master carton is: &amp;1[&amp;2].</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Qty is not enough for full carton, will be packed by cuboid algorithm.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Pack materials are determined from custom table &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Pack material &amp;1 will be used for cuboid algorithm.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>HU &amp;3 is in storage bin &amp;1 which is not part of work station &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>HU &amp;1 is not located in selected bin</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Stock in the top HU &amp;1 does not have referance to any documents.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Error during process determination. HU not relevant.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>HU contains other HUs. Select an HU with products only</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Stock will not be moved to the master carton. Task conf. error</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>System can not find master carton ( pick HU )</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>System can not create WTs to the conveyor. Contact support team.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>System can not find destination conveyor and can not create the task.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Systen can not find open tasks to final conveyor. Contact support team.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Pick Cart is not created ( or missing in the object )</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>No Open tasks found to the conveyor. contact suposrt team</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Still open WT of master carton to the conveyor.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Scan the drop off bin location.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>AUoM not maintained for product &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Next Picks for &amp;1 Apply Label</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Next Picks for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Scan master cart qty first</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Error: There are not mastar cartons found. WT will be not created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>&amp;1 storage bin is not part of the work center &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Error changing WTs</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Carrier &amp;1 of HU &amp;2 is not equal to carrier &amp;3 of destination HU &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Delivery &amp;1 has an HU with a tracking number.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Terminal for &amp;1 cannot be determined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Printer IP Address is not maintanind for terminal &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>HU &amp;1 has a tracking number.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>VCE Manifest Request object creation failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Step &amp;1 of HU &amp;2 is completed. You can not change the DLV &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>No HUs with tracking number selected.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Activity for &amp;1 cannot be read</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Error occured on VCE side with error text:</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Rsponse contains no HU data. TU cannot be identified</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>HU with SSCC &amp;1 does not exists in the system</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>TU cannot be determined for HUwith SSCC &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Post request failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Product &amp;1 does not exists in the system</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>GI for delivery &amp;1 cannot be performed</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

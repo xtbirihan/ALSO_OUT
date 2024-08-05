@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_OUTB_PACKING_WC_SP</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Outbound Packing UI Services</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>NOK</KEY>
+     <ENTRY>Not OK</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>OK_</KEY>
+     <ENTRY>OK</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>NOK</KEY>
+       <ENTRY>Not OK</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OK_</KEY>
+       <ENTRY>OK</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>NOK</KEY>
+       <ENTRY>Not OK</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OK_</KEY>
+       <ENTRY>OK</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>NOK</KEY>
+       <ENTRY>Not OK</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OK_</KEY>
+       <ENTRY>OK</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>NOK</KEY>
+       <ENTRY>Not OK</ENTRY>
+       <LENGTH>16</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>OK_</KEY>
+       <ENTRY>OK</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SERIAL_NUM_ID_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ID Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Move HU and unpack</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Move HU and unpack</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Move HU and unpack</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Move HU and unpack</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Move HU and unpack</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_FUNCTION_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PACK_WM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Packing in WM with Immediately Confirmed Transfer Orders</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PACK_WM</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Packing in WM with Immediately Confirmed Transfer Orders</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PACK_WM</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Packing in WM with Immediately Confirmed Transfer Orders</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PACK_WM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Packing in WM with Immediately Confirmed Transfer Orders</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_PACK_WM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Packing in WM with Immediately Confirmed Transfer Orders</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_TERMNAL_DEFAULTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Terminal Defaults</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_TERMNAL_DEFAULTS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Terminal Defaults</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_TERMNAL_DEFAULTS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Terminal Defaults</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_TERMNAL_DEFAULTS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Terminal Defaults</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_TERMNAL_DEFAULTS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Terminal Defaults</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WEIGHT_DEVIATIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Wight Devation in Warehouses</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WEIGHT_DEVIATIONS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Wight Devation in Warehouses</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WEIGHT_DEVIATIONS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Wight Devation in Warehouses</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WEIGHT_DEVIATIONS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Wight Devation in Warehouses</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WEIGHT_DEVIATIONS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Wight Devation in Warehouses</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Work Center Profile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTATION</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Work Center Profile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTATION</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Work Center Profile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTATION</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Work Center Profile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTATION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Work Center Profile</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTTYP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Work Center Layout</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTTYP</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Work Center Layout</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTTYP</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Work Center Layout</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTTYP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Work Center Layout</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_WORKSTTYP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Work Center Layout</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_DLV_ITEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_DLV_ITEM</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_DLV_ITEM</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_DLV_ITEM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_DLV_ITEM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SCALE_WEIGHT_IN_KG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Scale HU Weight (KG)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SCALE_WEIGHT_IN_KG</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Scale HU Weight (KG)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SCALE_WEIGHT_IN_KG</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Scale HU Weight (KG)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SCALE_WEIGHT_IN_KG</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Scale HU Weight (KG)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SCALE_WEIGHT_IN_KG</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Scale HU Weight (KG)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_WEIGHT_DIFFERENCE</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOCK_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>ET_BAPIRET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Error Messages</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>ET_BAPIRET</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Error Messages</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>ET_BAPIRET</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Error Messages</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>ET_BAPIRET</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Error Messages</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>ET_BAPIRET</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Error Messages</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>IV_HUIDENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>IV_HUIDENT</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>IV_HUIDENT</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>IV_HUIDENT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>IV_HUIDENT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>IV_LGPLA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>IV_LGPLA</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>IV_LGPLA</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>IV_LGPLA</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>IV_LGPLA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_AND_UNPACK_HU</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

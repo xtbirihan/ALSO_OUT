@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Warehouse Order Messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Duplicate key field error occured!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Unexpected selection parameter &amp;1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Empty Key Value</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Missing Customizing Settings!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Invalid time unit!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Warehouse Order ID not Found!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Warehouse Order Creation Error!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Warehouse Order Blocked Successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Warehouse Order Unblocked Successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Warehouse Order Blocking Error!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Warehouse Order Unblocking Error!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Warehouse Order rules hasn&apos;t been satisfy!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Warehouse Order rule changed successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>No Warehouse Orders changed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Warehouse Order &amp;1 Queue changed from &amp;2 to &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_WHSE_ORDER</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>No Warehouse Orders found.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

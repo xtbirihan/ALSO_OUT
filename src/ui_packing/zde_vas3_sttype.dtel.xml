@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_VAS3_STTYPE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/SCWM/LGTYP</DOMNAME>
+    <MEMORYID>/SCWM/LGT</MEMORYID>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Storage Type</DDTEXT>
+    <REPTEXT>VAS Level 3 StType</REPTEXT>
+    <SCRTEXT_S>VAS3StType</SCRTEXT_S>
+    <SCRTEXT_M>VAS Lev. 3 StType</SCRTEXT_M>
+    <SCRTEXT_L>VAS Level 3 StType</SCRTEXT_L>
+    <APPLCLASS>LVS</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <SHLPNAME>/SCWM/SH_LGTYP</SHLPNAME>
+    <SHLPFIELD>LGTYP</SHLPFIELD>
+    <DEFFDNAME>STGE_TYPE</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Lagertyp</DDTEXT>
+     <REPTEXT>Typ</REPTEXT>
+     <SCRTEXT_S>Lagertyp</SCRTEXT_S>
+     <SCRTEXT_M>Lagertyp</SCRTEXT_M>
+     <SCRTEXT_L>Lagertyp</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type de magasin</DDTEXT>
+     <REPTEXT>Ty</REPTEXT>
+     <SCRTEXT_S>Type mag.</SCRTEXT_S>
+     <SCRTEXT_M>Type de magasin</SCRTEXT_M>
+     <SCRTEXT_L>Type de magasin</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Tipo magazzino</DDTEXT>
+     <REPTEXT>Tp.</REPTEXT>
+     <SCRTEXT_S>Tp. mag.</SCRTEXT_S>
+     <SCRTEXT_M>Tipo magazzino</SCRTEXT_M>
+     <SCRTEXT_L>Tipo magazzino</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo de depósito</DDTEXT>
+     <REPTEXT>Tp.</REPTEXT>
+     <SCRTEXT_S>TpDepós.</SCRTEXT_S>
+     <SCRTEXT_M>TpDepós.</SCRTEXT_M>
+     <SCRTEXT_L>Tipo de depósito</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Tipo almacén</DDTEXT>
+     <REPTEXT>Tp.</REPTEXT>
+     <SCRTEXT_S>Tp.almacén</SCRTEXT_S>
+     <SCRTEXT_M>Tipo almacén</SCRTEXT_M>
+     <SCRTEXT_L>Tipo almacén</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

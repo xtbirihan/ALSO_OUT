@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_OUT_EWM_DELIVERY</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>EWM Outbound Delivery</DDTEXT>
+    <REPTEXT>EWM Outbound Delivery</REPTEXT>
+    <SCRTEXT_S>OutbDeliv</SCRTEXT_S>
+    <SCRTEXT_M>EWM Outb. Delivery</SCRTEXT_M>
+    <SCRTEXT_L>EWM Outbound Delivery</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000030</LENG>
+    <OUTPUTLEN>000030</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>EWM Outbound Delivery / Item</DDTEXT>
+     <REPTEXT>EWM OUT. Delivery / Item</REPTEXT>
+     <SCRTEXT_S>OutbDelItm</SCRTEXT_S>
+     <SCRTEXT_M>EWM Out. Del./Itm.</SCRTEXT_M>
+     <SCRTEXT_L>EWM Out. Delivery / Item</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>EWM Outbound Delivery / Item</DDTEXT>
+     <REPTEXT>EWM OUT. Delivery / Item</REPTEXT>
+     <SCRTEXT_S>OutbDelItm</SCRTEXT_S>
+     <SCRTEXT_M>EWM Out. Del./Itm.</SCRTEXT_M>
+     <SCRTEXT_L>EWM Out. Delivery / Item</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>EWM Outbound Delivery / Item</DDTEXT>
+     <REPTEXT>EWM OUT. Delivery / Item</REPTEXT>
+     <SCRTEXT_S>OutbDelItm</SCRTEXT_S>
+     <SCRTEXT_M>EWM Out. Del./Itm.</SCRTEXT_M>
+     <SCRTEXT_L>EWM Out. Delivery / Item</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>EWM Outbound Delivery / Item</DDTEXT>
+     <REPTEXT>EWM OUT. Delivery / Item</REPTEXT>
+     <SCRTEXT_S>OutbDelItm</SCRTEXT_S>
+     <SCRTEXT_M>EWM Out. Del./Itm.</SCRTEXT_M>
+     <SCRTEXT_L>EWM Out. Delivery / Item</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

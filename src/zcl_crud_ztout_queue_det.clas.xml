@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CRUD_ZTOUT_QUEUE_DET</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Managing Table: ZTOUT_QUEUE_DET</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_QUEUE</CMPNAME>
+     <SCONAME>IT_QUEUE_R</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range Table for Queue</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_QUEUE</CMPNAME>
+     <SCONAME>IT_QUEUE_R</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Range Table for Queue</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_QUEUE</CMPNAME>
+     <SCONAME>IT_QUEUE_R</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Range Table for Queue</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_QUEUE</CMPNAME>
+     <SCONAME>IT_QUEUE_R</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Range Table for Queue</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_QUEUE</CMPNAME>
+     <SCONAME>IT_QUEUE_R</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Range Table for Queue</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_QUEUE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_QUEUE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_QUEUE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_QUEUE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_QUEUE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

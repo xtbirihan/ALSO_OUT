@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_OUT_FULL_PALET_PICKING</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Full Pallet Picking</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Full Pallet Picking</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_STOCK_MON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Stock in Warehouse Monitor</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_PARAMETERS</CMPNAME>
+     <SCONAME>IT_SWITCH_FIELDS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Switch Framework Criteria Fields</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_PARAMETERS</CMPNAME>
+     <SCONAME>IV_ANFML</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Quantity Field</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_PARAMETERS</CMPNAME>
+     <SCONAME>IV_DEVID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Development ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_PARAMETERS</CMPNAME>
+     <SCONAME>IV_TRART</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Process Category</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_PARAMETERS</CMPNAME>
+     <SCONAME>RV_CHECK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_PICKED_BIN</CMPNAME>
+     <SCONAME>IV_BIN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>EO_INSTANCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Full Pallet Picking</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PHYSICAL_STOCK</CMPNAME>
+     <SCONAME>IT_QMAT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Available Quantities: Internal Table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PHYSICAL_STOCK</CMPNAME>
+     <SCONAME>RT_STOCK_MON</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Stock in Warehouse Monitor</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

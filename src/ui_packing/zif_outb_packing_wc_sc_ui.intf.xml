@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_OUTB_PACKING_WC_SC_UI</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Outbound PAcking SC UI</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_DATA</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_NO_W_DIFF</CMPNAME>
+     <SCONAME>CO_CAPTURED_SN_IDN_TABLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Basis Class for Simple Tables</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_NO_W_DIFF</CMPNAME>
+     <SCONAME>CO_HU_CONTENT_TABLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Basis Class for Simple Tables</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_NO_W_DIFF</CMPNAME>
+     <SCONAME>IO_CAPTURED_SN_IDN_CC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Basis Class for Simple Tables</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_NO_W_DIFF</CMPNAME>
+     <SCONAME>IO_HU_CONTENT_CC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Container for custom controls in the dynpro area</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_NO_W_DIFF</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_W_DIFF</CMPNAME>
+     <SCONAME>CO_CAPTURED_SN_IDN_TABLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Basis Class for Simple Tables</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_W_DIFF</CMPNAME>
+     <SCONAME>CO_HU_CONTENT_TABLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Basis Class for Simple Tables</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_W_DIFF</CMPNAME>
+     <SCONAME>CO_VERIFIED_ITEMS_TABLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Basis Class for Simple Tables</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_W_DIFF</CMPNAME>
+     <SCONAME>IO_CAPTURED_SN_IDN_CC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Basis Class for Simple Tables</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_W_DIFF</CMPNAME>
+     <SCONAME>IO_HU_CONTENT_CC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Container for custom controls in the dynpro area</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_W_DIFF</CMPNAME>
+     <SCONAME>IO_VERIFIED_ITEMS_CC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Basis Class for Simple Tables</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_W_DIFF</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PAI_PACK</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PBO_PACK</CMPNAME>
+     <SCONAME>ES_SCREEN_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Item t be processed</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PBO_PACK</CMPNAME>
+     <SCONAME>IO_CC_PACKING_INSTR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Container for custom controls in the dynpro area</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

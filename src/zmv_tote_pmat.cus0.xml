@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>ZMV_TOTE_PMAT</ACTIVITY>
+     <DOCU_ID>SIMG</DOCU_ID>
+     <C_ACTIVITY>ZMV_TOTE_PMAT</C_ACTIVITY>
+     <TCODE>Y_TE1_15000028</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>E</SPRAS>
+      <ACTIVITY>ZMV_TOTE_PMAT</ACTIVITY>
+      <TEXT>Define Tote : Small Ship-Packaging Material Mapping</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>

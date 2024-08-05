@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_WAVE_SAVE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Class for BAdI Implementation ZBI_OUT_WAVE_SAVE</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_REPORT_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Program Name</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_REPORT_NAME</CMPNAME>
+     <SCONAME>CT_WAVEHDR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Internal Table: Wave Headers</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_REPORT_NAME</CMPNAME>
+     <SCONAME>CT_WAVEITM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Internal Table Type: Wave Items</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_REPORT_NAME</CMPNAME>
+     <SCONAME>EV_CHANGED</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_REPORT_NAME</CMPNAME>
+     <SCONAME>EV_REPORT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Report Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_PARAMETERS</CMPNAME>
+     <SCONAME>IV_DEVID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Development ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_PARAMETERS</CMPNAME>
+     <SCONAME>RV_CHECK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

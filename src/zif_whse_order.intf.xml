@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_WHSE_ORDER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Warehouse Order</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_TO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Order Details for WM Monitor</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_TO</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Order Details for WM Monitor</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_TO</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Order Details for WM Monitor</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_TO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Order Details for WM Monitor</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_TO</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Order Details for WM Monitor</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_DATA_SELECT</CMPNAME>
+     <SCONAME>IT_WHO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_DATA_SELECT</CMPNAME>
+     <SCONAME>IT_WHO</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_DATA_SELECT</CMPNAME>
+     <SCONAME>IT_WHO</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_DATA_SELECT</CMPNAME>
+     <SCONAME>IT_WHO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_DATA_SELECT</CMPNAME>
+     <SCONAME>IT_WHO</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Order</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_ORDIM_O_ALL_FIELDS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table: Warehouse Tasks Open</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_ORDIM_O_ALL_FIELDS</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Table: Warehouse Tasks Open</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_ORDIM_O_ALL_FIELDS</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Table: Warehouse Tasks Open</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_ORDIM_O_ALL_FIELDS</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Table: Warehouse Tasks Open</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_ORDIM_O_ALL_FIELDS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table: Warehouse Tasks Open</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_WHO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Order Details for WM Monitor</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_WHO</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Order Details for WM Monitor</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_WHO</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Order Details for WM Monitor</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_WHO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Order Details for WM Monitor</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>WO_DATA_SELECT</CMPNAME>
+     <SCONAME>ET_WHO</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Order Details for WM Monitor</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

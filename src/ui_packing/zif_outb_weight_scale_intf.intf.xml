@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_OUTB_WEIGHT_SCALE_INTF</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Weight Scale interface</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_WEIGTH_IN_KG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get weight in kg</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_WEIGTH_IN_KG</CMPNAME>
+     <SCONAME>IV_WEIGHT_SCALE_IP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Weight Scale IP</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_WEIGTH_IN_KG</CMPNAME>
+     <SCONAME>RV_WEIGHT_IN_KG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Scale HU Weight (KG)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

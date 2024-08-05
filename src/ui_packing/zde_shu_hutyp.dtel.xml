@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_SHU_HUTYP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/SCWM/DO_HUTYP</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>SHU HU Type</DDTEXT>
+    <REPTEXT>SHU HU Type</REPTEXT>
+    <SCRTEXT_S>SHUHUTyp</SCRTEXT_S>
+    <SCRTEXT_M>SHU HU Type</SCRTEXT_M>
+    <SCRTEXT_L>SHU HU Type</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Handling-Unit-Typ</DDTEXT>
+     <REPTEXT>Handling-Unit-Typ</REPTEXT>
+     <SCRTEXT_S>HU-Typ</SCRTEXT_S>
+     <SCRTEXT_M>HU-Typ</SCRTEXT_M>
+     <SCRTEXT_L>Handling-Unit-Typ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type d&apos;unité de manutention</DDTEXT>
+     <REPTEXT>Type uté manutention</REPTEXT>
+     <SCRTEXT_S>Type UM</SCRTEXT_S>
+     <SCRTEXT_M>Type UM</SCRTEXT_M>
+     <SCRTEXT_L>Type uté manutention</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Tipo di unità di movimentazione</DDTEXT>
+     <REPTEXT>Tipo utà moviment.</REPTEXT>
+     <SCRTEXT_S>Tp. UdM</SCRTEXT_S>
+     <SCRTEXT_M>Tp. UdM</SCRTEXT_M>
+     <SCRTEXT_L>Tipo utà moviment.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo de unidade comercial</DDTEXT>
+     <REPTEXT>Tipo de UC</REPTEXT>
+     <SCRTEXT_S>Tipo de UC</SCRTEXT_S>
+     <SCRTEXT_M>Tipo de UC</SCRTEXT_M>
+     <SCRTEXT_L>Tipo de UC</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Tipo de unidad de manipulación</DDTEXT>
+     <REPTEXT>Tp.un.manipulación</REPTEXT>
+     <SCRTEXT_S>Tp.UMp</SCRTEXT_S>
+     <SCRTEXT_M>Tipo un.manip.</SCRTEXT_M>
+     <SCRTEXT_L>Tp.un.manipulación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

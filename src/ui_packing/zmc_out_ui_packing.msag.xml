@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>POutbound Packing UI</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Packing KEP: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>HU &amp;1 is beeing proceed by another desk</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>HU &amp;1 in the Lost and Found StBin. Scan another HU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Scanned HU is relevant for VAS Processing. Move it to the VAS WC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Scanned HU is not in a relevant Storage Bin</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Product &amp;1 is not in the HU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Staging lane cannot be determined for &amp;1/&amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Product &amp;1 does not exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Enter an HU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Product &amp;1 amount cannot be converted from &amp;2 into &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Scan all SN/IDN</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Packing material cannot be determined for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Amount to be Proc.(PC) may not exceed Req. Amount (PC)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Please fill Organizational Data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Please fill all the Filter fields</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Please enter SHU Packing Material</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>HU has no content in the system</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>HU &amp;1 is moved to Lost and Found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Please enter Scale HU Weight</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Please fill all SN/IDN fields</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Serial number &amp;1 is already scanned</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Rapack quantity exceeds the quantity in the HU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Serial number &amp;1 is already assigned to document &amp;2/&amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>HU has Packing type SPO/SLO. Cannot navigate to monitor.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Product with serial &amp;1 is already added to a different HU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Weight data of the Packaging Material &amp;1 is not full. Please check it</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Serial number &amp;1 is not in the picking HU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Serial number &amp;1 is not scanned previously</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>No HU with product &amp;1 and quantity &amp;2 is found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>No HU is selected</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>No HU can be determined for HU/Product/EAN/MPN &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_OUT_UI_PACKING</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>No Serial Number is entered</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

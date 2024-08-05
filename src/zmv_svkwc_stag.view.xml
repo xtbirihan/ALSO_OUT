@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>ZMV_SVKWC_STAG</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>ZTOUT_SVKWC_STAG</ROOTTAB>
+    <DDTEXT>Mapping Table with Staging Area Group and SVK WC SS/Bin</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <CUSTOMAUTH>C</CUSTOMAUTH>
+    <GLOBALFLAG>X</GLOBALFLAG>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>ZMV_SVKWC_STAG</VIEWNAME>
+     <TABNAME>ZTOUT_SVKWC_STAG</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>ZTOUT_SVKWC_STAG</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>MANDT</VIEWFIELD>
+     <TABNAME>ZTOUT_SVKWC_STAG</TABNAME>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>LGNUM</VIEWFIELD>
+     <TABNAME>ZTOUT_SVKWC_STAG</TABNAME>
+     <FIELDNAME>LGNUM</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <SHLPORIGIN>D</SHLPORIGIN>
+     <SHLPNAME>/SCWM/SH_LGNUM</SHLPNAME>
+     <SHLPFIELD>LGNUM</SHLPFIELD>
+     <LOGFLAG>X</LOGFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>STARE_A_GR</VIEWFIELD>
+     <TABNAME>ZTOUT_SVKWC_STAG</TABNAME>
+     <FIELDNAME>STARE_A_GR</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>SVK_WC_BIN</VIEWFIELD>
+     <TABNAME>ZTOUT_SVKWC_STAG</TABNAME>
+     <FIELDNAME>SVK_WC_BIN</FIELDNAME>
+     <CHECKTABLE>/SCWM/LAGP</CHECKTABLE>
+     <SHLPORIGIN>P</SHLPORIGIN>
+    </DD27P>
+   </DD27P_TABLE>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD25_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Mapping Table with Staging Area Group and SVK WC SS/Bin</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Mapping Table with Staging Area Group and SVK WC SS/Bin</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Mapping Table with Staging Area Group and SVK WC SS/Bin</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Mapping Table with Staging Area Group and SVK WC SS/Bin</DDTEXT>
+    </item>
+   </DD25_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

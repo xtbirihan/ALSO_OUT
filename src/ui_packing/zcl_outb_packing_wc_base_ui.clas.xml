@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_OUTB_PACKING_WC_BASE_UI</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Outb. Packaging SLO SPO</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>AIO</KEY>
+     <ENTRY>All in one</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>AIO</KEY>
+       <ENTRY>All in one</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>AIO</KEY>
+       <ENTRY>All in one</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>AIO</KEY>
+       <ENTRY>All in one</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>AIO</KEY>
+       <ENTRY>All in one</ENTRY>
+       <LENGTH>20</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_CHANGE_CARRIER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_DELETE_MISS_ITMS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_LEAVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_LEAVE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_LEAVE</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_LEAVE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_LEAVE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_FUNC_SCAN_2D_BARCODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_REQ_SNS_IDN_CTRL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Container for custom controls in the dynpro area</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_REQ_SNS_IDN_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Basis Class for Simple Tables</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_HU_CONTENT_CURRENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Hu Content</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_REQ_SNS_IDN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested SNs/IDN</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_DELIVERY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Outbound Deliveries</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_EXCLUDES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Strings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BALLOGHNDL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BALLOGHNDL</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BALLOGHNDL</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BALLOGHNDL</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BALLOGHNDL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Application Log: Log Handle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_HUIDENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LGNUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LGPLA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_NEW_GUID_HU</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_NEW_HU</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_NEXT_HU</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SCALE_WEIGHT_IN_KG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Scale HU Weight (KG)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SERID_ITM_NO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Document Item for Document-Related Stock</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SUBSCREEN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SUBSCREEN_PRG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Program: Current Master Program</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_WORKSTATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Work Center</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_SERIDS</CMPNAME>
+     <SCONAME>IS_SCREEN_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested SNs/IDN</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_HUIDENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_LGPLA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_WRKST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Work Center</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EXPECTED_PRINT_DOCUS</CMPNAME>
+     <SCONAME>IV_HU</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EXPECTED_PRINT_DOCUS</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PROD_FROM_EAN_MPRN_MATNR</CMPNAME>
+     <SCONAME>IV_PRODUCT_EAN_MPN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Product / EAN / MPN</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PROD_FROM_EAN_MPRN_MATNR</CMPNAME>
+     <SCONAME>RV_MATNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Material Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PROD_FROM_EAN_MPRN_MATNR</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_REQ_SNS_IDN</CMPNAME>
+     <SCONAME>IO_CAPTURED_SN_IDN_CC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Container for custom controls in the dynpro area</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SCAN_2D_BARCODE</CMPNAME>
+     <SCONAME>CS_SN_IDN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requested SNs/IDN</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_TECHNICAL_HU_CONTENT_COLS</CMPNAME>
+     <SCONAME>IO_HU_CONTENT_TABLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Basis Class for Simple Tables</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

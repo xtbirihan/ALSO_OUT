@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CUS0" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CUS0>
+    <HEADER>
+     <ACTIVITY>ZTOUT_KEP_CBQUEU</ACTIVITY>
+     <DOCU_ID>SIMG</DOCU_ID>
+     <C_ACTIVITY>ZTOUT_KEP_CBQUEU</C_ACTIVITY>
+     <TCODE>Y_TE1_15000035</TCODE>
+    </HEADER>
+    <TEXTS>
+     <CUS_IMGACT>
+      <SPRAS>S</SPRAS>
+      <ACTIVITY>ZTOUT_KEP_CBQUEU</ACTIVITY>
+      <TEXT>KEP Master Carton Queue Control Table</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>P</SPRAS>
+      <ACTIVITY>ZTOUT_KEP_CBQUEU</ACTIVITY>
+      <TEXT>KEP Master Carton Queue Control Table</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>I</SPRAS>
+      <ACTIVITY>ZTOUT_KEP_CBQUEU</ACTIVITY>
+      <TEXT>KEP Master Carton Queue Control Table</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>F</SPRAS>
+      <ACTIVITY>ZTOUT_KEP_CBQUEU</ACTIVITY>
+      <TEXT>KEP Master Carton Queue Control Table</TEXT>
+     </CUS_IMGACT>
+     <CUS_IMGACT>
+      <SPRAS>E</SPRAS>
+      <ACTIVITY>ZTOUT_KEP_CBQUEU</ACTIVITY>
+      <TEXT>KEP Master Carton Picking Process Settings</TEXT>
+     </CUS_IMGACT>
+    </TEXTS>
+   </CUS0>
+  </asx:values>
+ </asx:abap>
+</abapGit>

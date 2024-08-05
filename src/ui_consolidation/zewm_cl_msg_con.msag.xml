@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>HU &amp;1 not consolidated yet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Consolidation has already been started for this delivery</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Error releasing stock</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Please select a sub HU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No serial number managed items in the HU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Pallet cannot be merged to a parcel</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>No suitable item found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Splitting is only allowed for pallets</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Could not determine packaging material for HU type &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Serial numbers not yet fully maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>HU already closed. Action not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Could not determine packaging material for HU &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Scanned HU exists and is not part of current document &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Scan the exact quantity of the product.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>System can not find source master carton.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Merge is not relevant. Source HU &amp;1 is a parcel dest. HU &amp;2 is a pallet.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Enter packing material!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Enter all required fields - SN info missing.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Scanned HU is a shipping carton and is not part from the scanned pallet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Please select a sub HU or product from the &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Scan one of the serial numbers of HU.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Serial number is not identified. First scan SNs for the relevant HU</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>HU cannot be used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Selected line does not responce to the selected serial number.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Vendor SN scanning is not relevant for the current case.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Vendor SN scan. Not possible. DLV Item was not found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>DLV &amp;1 Item &amp;2 is not serialized</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>DLV &amp;1 Item &amp;2 required SN which must be scanned manually</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Scan Vendor HU Number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>No serial numbers found for scanned vendor HU &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>There is no match between the qty requested and the SNs in the vendor tab</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZEWM_CL_MSG_CON</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Serial number status is not correct</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

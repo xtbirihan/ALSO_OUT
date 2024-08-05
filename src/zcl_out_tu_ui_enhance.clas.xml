@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_OUT_TU_UI_ENHANCE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>TU UI Enhancments</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>CMR</KEY>
+     <ENTRY>CMR Shipment</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SPED_KEP_MIX</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SPED_KEP_MIX</CMPNAME>
+     <SCONAME>IV_TSP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Carrier</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TU_CMR</CMPNAME>
+     <SCONAME>CV_CMR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CMR Shipment</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TU_CMR</CMPNAME>
+     <SCONAME>IO_TUDLV_MANAGER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>assignment of DLV to TU</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TU_CMR</CMPNAME>
+     <SCONAME>IS_TU_DLV</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TU Assignments</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TU_CMR</CMPNAME>
+     <SCONAME>IV_CHGIND</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character Field of Length 1</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

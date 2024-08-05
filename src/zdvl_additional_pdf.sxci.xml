@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SXCI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SXCI>
+    <IMPLEMENTATION_DATA>
+     <IMP_NAME>ZDVL_ADDITIONAL_PDF</IMP_NAME>
+     <TEXT>PPF Action for printing additional PDF during packing</TEXT>
+     <IMP_CLASS>ZCL_OUT_DLV_PPF_ADD_PDF</IMP_CLASS>
+     <EXIT_NAME>EXEC_METHODCALL_PPF</EXIT_NAME>
+     <INTER_NAME>IF_EX_EXEC_METHODCALL_PPF</INTER_NAME>
+     <ACTIVE>X</ACTIVE>
+    </IMPLEMENTATION_DATA>
+    <FILTERS>
+     <item>
+      <FLT_VAL>ZDVL_ADDITIONAL_PDF</FLT_VAL>
+     </item>
+    </FILTERS>
+   </SXCI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

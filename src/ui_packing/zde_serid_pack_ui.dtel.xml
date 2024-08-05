@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDE_SERID_PACK_UI</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZDO_SERID_PACK_UI</DOMNAME>
+    <HEADLEN>21</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>21</SCRLEN3>
+    <DDTEXT>Identification Number</DDTEXT>
+    <REPTEXT>Identification Number</REPTEXT>
+    <SCRTEXT_S>IdentNumb</SCRTEXT_S>
+    <SCRTEXT_M>Identification Numbe</SCRTEXT_M>
+    <SCRTEXT_L>Identification Number</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Identification Number</DDTEXT>
+     <REPTEXT>Identification Number</REPTEXT>
+     <SCRTEXT_S>IdentNumb</SCRTEXT_S>
+     <SCRTEXT_M>Identification Numbe</SCRTEXT_M>
+     <SCRTEXT_L>Identification Number</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Identification Number</DDTEXT>
+     <REPTEXT>Identification Number</REPTEXT>
+     <SCRTEXT_S>IdentNumb</SCRTEXT_S>
+     <SCRTEXT_M>Identification Numbe</SCRTEXT_M>
+     <SCRTEXT_L>Identification Number</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Identification Number</DDTEXT>
+     <REPTEXT>Identification Number</REPTEXT>
+     <SCRTEXT_S>IdentNumb</SCRTEXT_S>
+     <SCRTEXT_M>Identification Numbe</SCRTEXT_M>
+     <SCRTEXT_L>Identification Number</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Identification Number</DDTEXT>
+     <REPTEXT>Identification Number</REPTEXT>
+     <SCRTEXT_S>IdentNumb</SCRTEXT_S>
+     <SCRTEXT_M>Identification Numbe</SCRTEXT_M>
+     <SCRTEXT_L>Identification Number</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

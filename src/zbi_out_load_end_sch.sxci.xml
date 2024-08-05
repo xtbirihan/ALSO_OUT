@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SXCI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SXCI>
+    <IMPLEMENTATION_DATA>
+     <IMP_NAME>ZBI_OUT_LOAD_END_SCH</IMP_NAME>
+     <TEXT>Schedule if load end is set</TEXT>
+     <IMP_CLASS>ZCL_OUT_LOAD_END_SCH_PPF</IMP_CLASS>
+     <EXIT_NAME>EVAL_SCHEDCOND_PPF</EXIT_NAME>
+     <INTER_NAME>IF_EX_EVAL_SCHEDCOND_PPF</INTER_NAME>
+     <ACTIVE>X</ACTIVE>
+    </IMPLEMENTATION_DATA>
+    <FILTERS>
+     <item>
+      <FLT_VAL>ZLOAD_END</FLT_VAL>
+     </item>
+    </FILTERS>
+   </SXCI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_OUTB_PACKING_WC_SC_UI</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Outbound Packing Shipping Carton UI</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUBSCREEN_REPID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Program: Current Master Program</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUBSREEN_NO_WEIGHT_DIFF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUBSREEN_WEIGHT_DIFF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_VERIFIED_ITEMS_CTRL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Container for custom controls in the dynpro area</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_SP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Outbound Packing UI Services</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_HUIDENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_LGPLA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_WRKST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Work Center</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_VERIFIED_ITEMS</CMPNAME>
+     <SCONAME>IO_VERIFIED_ITEMS_CC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Container for custom controls in the dynpro area</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PACKING_MAT_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRODUCT_CHANGED</CMPNAME>
+     <SCONAME>IV_PRODUCT_EAN_MPN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Product / EAN / MPN</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PRODUCT_CHANGED</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

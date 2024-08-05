@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_OUTB_PACKING_WORKCENTER_UI</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>PAcking Workcenter</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>HCP</KEY>
+     <ENTRY>HU cannot be processed</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NO_</KEY>
+     <ENTRY>No</ENTRY>
+     <LENGTH>12</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>PBO</KEY>
+     <ENTRY>HU Processed by other desk</ENTRY>
+     <LENGTH>52</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>PBQ</KEY>
+     <ENTRY>Picking HU is located in another Storage Bin of the same KEP packing WC. Do you want to move it to your desk?</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>SKS</KEY>
+     <ENTRY>Skip this Step</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>TAH</KEY>
+     <ENTRY>Try Another HU</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>YES</KEY>
+     <ENTRY>Yes</ENTRY>
+     <LENGTH>13</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>HCP</KEY>
+       <ENTRY>HU cannot be processed</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NO_</KEY>
+       <ENTRY>No</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PBO</KEY>
+       <ENTRY>HU Processed by other desk</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PBQ</KEY>
+       <ENTRY>Picking HU is located in another Storage Bin of the same KEP packing WC. Do you want to move it to your desk?</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SKS</KEY>
+       <ENTRY>Skip this Step</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>TAH</KEY>
+       <ENTRY>Try Another HU</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>YES</KEY>
+       <ENTRY>Yes</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>HCP</KEY>
+       <ENTRY>HU cannot be processed</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NO_</KEY>
+       <ENTRY>No</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PBO</KEY>
+       <ENTRY>HU Processed by other desk</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PBQ</KEY>
+       <ENTRY>Picking HU is located in another Storage Bin of the same KEP packing WC. Do you want to move it to your desk?</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SKS</KEY>
+       <ENTRY>Skip this Step</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>TAH</KEY>
+       <ENTRY>Try Another HU</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>YES</KEY>
+       <ENTRY>Yes</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>HCP</KEY>
+       <ENTRY>HU cannot be processed</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NO_</KEY>
+       <ENTRY>No</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PBO</KEY>
+       <ENTRY>HU Processed by other desk</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PBQ</KEY>
+       <ENTRY>Picking HU is located in another Storage Bin of the same KEP packing WC. Do you want to move it to your desk?</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SKS</KEY>
+       <ENTRY>Skip this Step</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>TAH</KEY>
+       <ENTRY>Try Another HU</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>YES</KEY>
+       <ENTRY>Yes</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>HCP</KEY>
+       <ENTRY>HU cannot be processed</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>NO_</KEY>
+       <ENTRY>No</ENTRY>
+       <LENGTH>12</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PBO</KEY>
+       <ENTRY>HU Processed by other desk</ENTRY>
+       <LENGTH>52</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>PBQ</KEY>
+       <ENTRY>Picking HU is located in another Storage Bin of the same KEP packing WC. Do you want to move it to your desk?</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>SKS</KEY>
+       <ENTRY>Skip this Step</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>TAH</KEY>
+       <ENTRY>Try Another HU</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>YES</KEY>
+       <ENTRY>Yes</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_MAIN_SCREEN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_MAIN_SCREEN</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_MAIN_SCREEN</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_MAIN_SCREEN</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_MAIN_SCREEN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SUBSCREEN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>WS Subscreen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SUBSCREEN</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>WS Subscreen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SUBSCREEN</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>WS Subscreen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SUBSCREEN</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WS Subscreen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SUBSCREEN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>WS Subscreen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_SCREEN_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>KEP Common fields on head</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_SCREEN_DATA</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>KEP Common fields on head</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_SCREEN_DATA</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>KEP Common fields on head</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_SCREEN_DATA</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>KEP Common fields on head</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_SCREEN_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>KEP Common fields on head</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_SCREEN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_SCREEN</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_SCREEN</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_SCREEN</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENT_SCREEN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ABAP System Field: Current Dynpro Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ST_RNG_MC_WORKCENTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>SELECT-OPTIONS Table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SV_LGNUM_FOR_BUFFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>AT_SELL_GET_WST</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AT_SELL_GET_WST</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AT_SELL_GET_WST</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AT_SELL_GET_WST</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AT_SELL_GET_WST</CMPNAME>
+     <SCONAME>ZCX_WORKSTATION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Workstation errors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_WORKCENTER_MASTERCARTON_REL</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_WORKCENTER_MASTERCARTON_REL</CMPNAME>
+     <SCONAME>IV_WORKCENTER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Work Center</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI</CMPNAME>
+     <SCONAME>IV_PRODUCT_EAN_MPN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Product / EAN / MPN</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI</CMPNAME>
+     <SCONAME>IV_SCALE_WEIGHT_IN_KG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Scale HU Weight (KG)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI</CMPNAME>
+     <SCONAME>IV_SCALE_WEIGHT_IN_KG</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Scale HU Weight (KG)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI</CMPNAME>
+     <SCONAME>IV_SCALE_WEIGHT_IN_KG</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Scale HU Weight (KG)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI</CMPNAME>
+     <SCONAME>IV_SCALE_WEIGHT_IN_KG</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Scale HU Weight (KG)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI</CMPNAME>
+     <SCONAME>IV_SCALE_WEIGHT_IN_KG</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Scale HU Weight (KG)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_MC</CMPNAME>
+     <SCONAME>EV_NEXT_PROD</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Product / EAN / MPN</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SC_TOTE</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SC_TOTE</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SC_TOTE</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SC_TOTE</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SC_TOTE</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SLO</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SLO</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SLO</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SLO</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SLO</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SPO</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SPO</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SPO</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SPO</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_UI_SPO</CMPNAME>
+     <SCONAME>EV_NEXT_HU</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Handling Unit Identification</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

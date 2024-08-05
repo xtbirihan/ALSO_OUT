@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CRUD_ZTOUT_MC_PICK</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Managing Table ZTOUT_MC_PICK</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>TS_MC_PICK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Master Carton Picking Flow</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_MC_PICK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Master Carton Picking Flow</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_QUEUE</CMPNAME>
+     <SCONAME>ET_MC_PICK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Master Carton Picking Flow</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_QUEUE</CMPNAME>
+     <SCONAME>IT_QUEUE_R</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range Table for Queue</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_MULTI_BY_QUEUE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_SINGLE_BY_QUEUE</CMPNAME>
+     <SCONAME>ES_MC_PICK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Master Carton Picking Flow</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_SINGLE_BY_QUEUE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_SINGLE_BY_QUEUE</CMPNAME>
+     <SCONAME>IV_QUEUE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range Structure for Queue</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
